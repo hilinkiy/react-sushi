@@ -1,0 +1,58 @@
+.popular {
+    padding: 100px 0;
+    background: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1614397759_4-p-yeda-na-temnom-fone-11.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.popular__descr {
+    color: #fff;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.popular__title {
+    color: white;
+    font-size: 45px;
+    z-index: 2;
+    top: 20px;
+    position: absolute;
+}
+
+.popular__name {
+    color: #fff;
+    font-size: 40px;
+}
+
+.popular__btn {
+    outline: none;
+    background: none;
+    background: none;
+    color: #fff;
+    border: #FF9846 1px solid;
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: all ease-in-out .4s;
+}
+
+.blur3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0, .40);
+    z-index: 1;
+}
+
+.popular__btn:hover {
+    outline: none;
+    background: none;
+    background: #FF9846;
+    border: #FF9846 1px solid;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+}
